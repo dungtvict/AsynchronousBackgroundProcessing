@@ -1,0 +1,35 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:11763",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "AsynchronousBackgroundProcessing": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "weatherforecast",
+      "applicationUrl": "http://localhost:5049",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONFIGS_FILE_PATH": "Properties/Configs/configs.yml",
+        "SECRETS_FILE_PATH": "Properties/Configs/secrets.yml"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": false,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONFIGS_FILE_PATH": "Properties/Configs/configs.yml",
+        "SECRETS_FILE_PATH": "Properties/Configs/secrets.yml"
+      }
+    }
+  }
+}

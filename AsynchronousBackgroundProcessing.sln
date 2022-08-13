@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousBackgroundProcessing", "AsynchronousBackgroundProcessing.csproj", "{B76F0853-AAAE-419A-AB67-01489BE9BFF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B76F0853-AAAE-419A-AB67-01489BE9BFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76F0853-AAAE-419A-AB67-01489BE9BFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76F0853-AAAE-419A-AB67-01489BE9BFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76F0853-AAAE-419A-AB67-01489BE9BFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13602314-C671-4B6D-820E-6B761E44F29D}
+	EndGlobalSection
+EndGlobal
